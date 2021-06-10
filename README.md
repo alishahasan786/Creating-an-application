@@ -1,7 +1,5 @@
 # Creating-an-application
 
-# Creating an application
-
 #Using the python lambda function for structuring queries
 def lambda_handler(event, context):
     first_name = event['queryStringParameters']['first_name']
